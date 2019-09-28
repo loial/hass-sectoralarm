@@ -17,7 +17,8 @@ DATA_SA = "SECTOR_ALARM"
 _LOGGER = logging.getLogger(__name__)
 DEPENDENCIES = []
 
-REQUIREMENTS = ['aiohttp', 'asyncsector>=0.2.0']
+REQUIREMENTS = ['aiohttp',
+        'https://github.com/loial/asyncsector/archive/feature-autoversion.zip#asyncsector==0.2.0']
 
 CONF_EMAIL = 'email'
 CONF_PASSWORD = 'password'
